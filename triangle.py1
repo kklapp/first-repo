@@ -1,0 +1,6 @@
+def find_hypo():
+    a = int(input("What is your input for the first side of the triangle"))
+    b = int(input("What is your input for the second side of the triangle"))
+    c = (a**2+b**2)**.5
+    return c
+
